@@ -13,8 +13,12 @@
   font-size: 1.2rem;
 }
 body {
-  background-image: url("./images/winter_bg.jpg");
-  background-size: cover;
+  background-image: url("./images/illuminated.png"), url("./images/winter_bg.jpg");
+  background-size: contain, cover;
+  background-size: 1050px 2000px, 100% 100%;
+  background-repeat: no-repeat, no-repeat;
+
+  background-position: center, center;
   width: 100vw;
   height: 100%;
 }
@@ -26,7 +30,7 @@ h1 {
   letter-spacing: 1.5px;
 }
 #title {
-    padding-top: .5rem;
+    padding-top: 350px;
 }
 section {
   padding: 0;
